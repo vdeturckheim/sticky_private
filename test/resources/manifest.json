@@ -1,0 +1,16 @@
+{
+  "server": {},
+  "connections": [
+    {
+      "port": 3000
+    }
+  ],
+  "plugins": [
+    {
+      "sticky_auth": null
+    },
+    {
+      "./": null
+    }
+  ]
+}

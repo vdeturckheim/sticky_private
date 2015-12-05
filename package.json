@@ -1,0 +1,27 @@
+{
+  "name": "sticky_private",
+  "version": "0.0.0",
+  "description": "Private routes for sticky",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab test/api -c -L -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdeturckheim/sticky_private.git"
+  },
+  "author": "Vladimir de Turckheim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vdeturckheim/sticky_private/issues"
+  },
+  "homepage": "https://github.com/vdeturckheim/sticky_private#readme",
+  "devDependencies": {
+    "code": "^2.0.1",
+    "glue": "^2.4.0",
+    "lab": "^8.0.0"
+  },
+  "dependencies": {
+    "sticky_auth": "^0.1.1"
+  }
+}
